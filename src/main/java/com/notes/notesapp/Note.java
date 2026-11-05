@@ -1,10 +1,10 @@
-
 package com.notes.notesapp;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Column;
 
 @Entity
 public class Note {
@@ -14,6 +14,8 @@ public class Note {
     private Long id;
 
     private String title;
+
+    @Column(columnDefinition = "TEXT")
     private String content;
 
     public Note() {
