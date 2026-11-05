@@ -62,6 +62,11 @@ notesapp/
 
 `http://localhost:8080/`
 
+
+## Application Screenshot
+
+![Notes App Dashboard](screenshots/notes-dashboard.png)
+
 ## Author
 
 Snehal Chindhe
